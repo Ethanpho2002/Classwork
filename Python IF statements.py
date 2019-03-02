@@ -8,9 +8,20 @@ if(a%2==0):
 else:
   print("That is an odd number")
 
+  
+Question 35 code:
 
---------------------------------------------
+ 
+Question 36 code: 
+  
+letter=input("Please enter a letter:")
 
-Question 35 code: 
+if(letter=='a' or 'e' or 'i' or 'o' or 'u'):
+  print("This is a definitive vowel.")
 
-...
+elif(letter=='y'):
+  print("This can be either a vowel or constonant.")
+  
+  
+ Question 37 code:  
+
