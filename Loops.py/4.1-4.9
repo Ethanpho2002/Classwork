@@ -1,0 +1,26 @@
+# 4.1 Read the interger
+
+'a' must be lesser than or equal to 'b'
+
+a = int(input("Please input an interger: "))
+b = int(input("Please input an interger: "))
+
+for i in range (a, b+1):
+  print (i)
+  
+
+# 4.2 Ascending or Descending Order
+# Ascending if 'a' < 'b' and descending if 'a' ≥ 'b'
+
+a = int(input("Please input an interger: "))
+b = int(input("Please enter an interger: "))
+
+if a < b:
+  for i in range (a, b+1, +1):
+    print(i)
+
+
+elif a > b:
+  for i in range (b, a-1, -1):
+    print(i)
+
